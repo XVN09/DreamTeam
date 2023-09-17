@@ -6,8 +6,8 @@ body, h1, h2, p, ul, li {
 
 /* Basic styling for the body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
@@ -31,40 +31,55 @@ header nav ul li {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 /* Main content styles */
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 /* Event section styles */
 .event {
     margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .event h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
 .event p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #555;
 }
 
 .event a {
     text-decoration: none;
     background-color: #007BFF;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 5px;
     display: inline-block;
     font-weight: bold;
+    transition: background-color 0.2s;
 }
 
 .event a:hover {
@@ -76,5 +91,8 @@ footer {
     text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 0;
 }
+
+/* Additional Styles */
+/* Add your custom styles here to make your website unique and visually appealing */
